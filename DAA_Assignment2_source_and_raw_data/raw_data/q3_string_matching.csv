@@ -1,0 +1,4 @@
+test,n,m,alignments,matches,char_comparisons,comparisons_per_alignment
+T1 Best-case (mismatch at 1st char),10000,100,9901,0,9901,1.0
+T2 Worst-case (mismatch at last char),10000,100,9901,0,990100,100.0
+"T3 Realistic SSH log, pattern 'Failed password for root'",110849,24,110826,34,120648,1.089

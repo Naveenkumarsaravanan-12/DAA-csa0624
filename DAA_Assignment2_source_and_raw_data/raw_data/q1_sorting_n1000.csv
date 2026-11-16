@@ -1,0 +1,19 @@
+dataset,algorithm,comparisons,swaps_or_moves,time_ms
+Random,Selection,499500,994,18.377
+Random,Bubble,499329,258090,47.34
+Random,Insertion,259086,258090,19.639
+Already sorted,Selection,499500,0,18.738
+Already sorted,Bubble,999,0,0.042
+Already sorted,Insertion,999,0,0.065
+Reverse sorted,Selection,499500,500,18.632
+Reverse sorted,Bubble,499500,499500,45.191
+Reverse sorted,Insertion,499500,499500,33.087
+95% sorted (5% new orders appended),Selection,499500,987,18.505
+95% sorted (5% new orders appended),Bubble,499434,22817,22.446
+95% sorted (5% new orders appended),Insertion,23816,22817,1.829
+95% sorted (5% scattered),Selection,499500,960,17.404
+95% sorted (5% scattered),Bubble,484100,17253,21.399
+95% sorted (5% scattered),Insertion,18252,17253,1.321
+All equal scores (edge case),Selection,499500,0,18.02
+All equal scores (edge case),Bubble,999,0,0.044
+All equal scores (edge case),Insertion,999,0,0.069

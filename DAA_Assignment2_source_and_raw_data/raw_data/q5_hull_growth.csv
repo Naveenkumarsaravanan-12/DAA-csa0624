@@ -1,0 +1,6 @@
+n,hull_size_random,tests_random,hull_size_convex_position,tests_convex_position,upper_bound_n(n-1)(n-2)/2
+10,6,208,10,227,360
+20,7,1391,20,1652,3420
+40,11,9046,40,12102,29640
+80,12,60186,80,91402,246480
+160,14,449994,160,707602,2009760
